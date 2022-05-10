@@ -1,0 +1,38 @@
+.nav-rapper{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+}
+.right-side{
+    padding: 20px;
+    margin-right: 50px;
+    font-size: 20px;
+    padding-top: 150px;
+}
+.nav-rapper > .left-side > div{
+    margin-right: 30px;
+    font-size: 20px;
+}
+.nav-rapper > .right-side > div{
+    margin-right: 30px;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+
+}
+body {
+  background-image: url('https://funcakes.com/content/uploads/2021/02/Red-Velvet-Cake-with-Fruit-960x720-c-default.jpg'); 
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+  
+
+  
