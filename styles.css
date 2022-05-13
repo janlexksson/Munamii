@@ -46,6 +46,12 @@ a:hover{
     font-size: 20px;
     font-weight: bold;
     text-transform: none;
+    position: static;
+    background-color: rgba(255,255,200,0.6);
+    display: flex;
+    width: 100%;
+    /* justify-content: auto; */
+    text-align: auto;
     
 
 } 
@@ -99,6 +105,10 @@ div.container {
       ". main sidebar"
       "footer . ."; */
 }
+
+
+
+
 .cupcake1 {
     margin: 30px;
 }
@@ -192,6 +202,12 @@ p{
 .wedcake8 {
     margin: 30px;
 }
+
+
+/* footer info under here! */
+
+
+
 .footer {
     display: flex;
     
@@ -201,13 +217,22 @@ p{
 
     justify-content: space-evenly;
     /* align-content: space-between; */
+    
+   
    
   }
   
   
   .icons {
     display: flex;
-    margin-left: 10px;
+    margin-left: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    /* width: 100%;
+    justify-content: space-evenly; 
+    align-content: space-between;
+    text-align: center;
+    */
     
 }
 
