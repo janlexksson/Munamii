@@ -1,3 +1,5 @@
+
+
 .nav-rapper{
     display: flex;
     justify-content: space-between;
@@ -7,12 +9,11 @@
     display: flex;
     
 }
-/* .right-side{
-    padding: 20px;
-    margin-right: 50px;
-    font-size: 20px;
-    padding-top: 150px;
-} */
+.right-side{
+    padding: 10px;
+    margin-right: 30px;
+   
+} 
 /*
 .nav-rapper > .left-side > div{
     margin-right: 30px;
@@ -31,7 +32,7 @@ a{
     color: rgb(14, 77, 14);
     text-transform: uppercase;
     font-weight: bold ;
-    font-size: 40px;
+    font-size: 25px;
     
 
 }
@@ -42,20 +43,32 @@ a:hover{
 
 .x{
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    text-transform: none;
     
 
 } 
+
+html {
+    height: 100%;   
+}
+
 body {
   background-image: url(/images/backgroundwater.jpg); 
   background-repeat: no-repeat;
   /* background-size: 700px; */
   background-size: cover;  
+  opacity: 0.9;
 
 background-attachment: fixed;  
-   
+height: 100%;   
 }
+
+div.container {
+    min-height: 85%;
+}
+
 .cupcakes {
     display: flex;
     flex-flow: row wrap;
@@ -63,6 +76,7 @@ background-attachment: fixed;
     justify-content: space-evenly;
     align-content: space-between;
     text-align: center;
+    background-color: rgba(255,255,200,0.6);
     /* display: flex;
     flex-flow: row wrap;
     display: flex;
@@ -137,7 +151,7 @@ p{
     justify-content: space-evenly;
     align-content: space-between;
     text-align: center;
-     
+    background-color: rgba(255,255,300,0.6);
     /* display: flex;
     flex-direction: column;
      flex-wrap: wrap; 
@@ -180,8 +194,6 @@ p{
 }
 .footer {
     display: flex;
-    margin-top: 450px;
-    /* position: fixed; */
     
     bottom: 0; 
     width: 100%;
@@ -214,6 +226,11 @@ p{
 }
 
 .WhatsApp {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.E-mail {
     display: flex;
     margin-left: 30px;
     margin-right: 50px;
